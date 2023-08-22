@@ -1,13 +1,195 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>MiPortafolio</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carlos Delgado | Developer</title>
+<!-- Removes # in Angular routes -->
+<base href="/">
+<!-- Google font -->
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<!-- Compiled and concatenated custom scss -->
+<link rel="stylesheet" href=".//src/assets/css/style.css">
+<link rel="stylesheet" href=".//src/assets/css/style2.css">
 </head>
-<body>
-  <app-root></app-root>
+<body class="text-center" data-spy="scroll" data-target="#collapsible">
+<!-- Header-->
+<header id="header">
+    <video autoplay loop id="bg-video">
+    <source src="./assets/res/video/bg.mp4" type="video/mp4" />
+    </video>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="svg-wrapper">
+                <!-- only inlined svg -->
+            </div>
+            <div class="col-xs-12">
+                <h1 id="name">
+                <span class="com">w</span><span class="com">w</span><span class="com">w</span><span class="com">.</span>
+                <span>CARLOS</span><span class="xaviro transparent"></span><span class="xaviro transparent"></span><span class="xaviro transparent"> </span>
+                <span>D</span><span class="xaviro transparent">E</span><span class="xaviro transparent">L</span><span class="xaviro transparent">GA</span><span class="xaviro transparent">DO</span><span class="xaviro transparent"> </span>
+                <span>MAR</span><span class="xaviro transparent">TI</span><span class="xaviro transparent">NES</span><span class="xaviro transparent"></span><span class="xaviro transparent"></span>
+                <span class="com">-netlify</span><span class="com">.</span><span class="com">co</span><span class="com">m</span>
+                </h1>
+                <hr>
+                <p><span class="lead">Front-End & ASP .Net Developer</span></p>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Navbar-->
+<div id="nav-parent" >
+    <nav class="navbar navbar-custom" id="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <!-- Collapsible button -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsible">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <!-- Navbar Brand -->
+                <a class="navbar-brand" href="https://github.com/San-Cejota">
+                    <span><img class="img-circle" alt="xaviro.com" src="./assets/img/xs.png">
+                    <span id="scrollFade"> Carlos Delgado <span class="half-size">Developer</span></span>
+                    </span>
+                </a>
+            </div>
+                <!-- Collapsible -->
+            <div class="collapse navbar-collapse" id="collapsible">
+                <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a id="btn-portfolio" href="#portfolio">Quien Soy</a></li> 
+                <li><a id="btn-skillset" href="#skillset">Habilidades</a></li>
+                <li><a id="btn-experience " href="#proyectos">Proyectos</a></li>
+                <li><a id="btn-contact" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<main style="margin-top: 56.3438px;"> 
+<!-- portfolio -->
+<section id="portfolio">
+    <h3>¿Quien Soy?</h3>
+    <hr>
+    <article>
+        <section class="card">
+            <div class="text-content">
+                <br><br>
+                <h3>Hola!</h3>
+                <p>Mi nombre es Carlos Delgado, soy un programador Full Stack y .Net, soy una persona aplicada a la hora de trabajar, me gusta trabajar en equipo y soy adaptable a cualquier area de trabajo. </p>  
+            <!-- <a href="https://www.web-leb.com/code">Join now</a> -->
+                <br><br>
+            </div>
+            <div class="visual">
+                <img src=".//src/assets/img/yo.jpg" alt="" />
+            </div>
+        </section> 
+    </article>
+</section> 
+<!-- Habilidades -->
+<section id="skillset" id="habilidades" class="even">
+    <h3>Habilidades</h3>
+    <hr>
+    <div class="">
+        <div>
+            <img src=".//src/assets/img/skills/html.svg" class="imgg"> <span class="tooltip">HTML</span>
+        </div>
+        <div>
+            <img src=".//src/assets/img/skills/css.svg"class="imgg"> <span class="tooltip">CSS</span>
+        </div>
+        <div>
+            <img src=".//src/assets/img/skills/js.png"class="imgg"> <span class="tooltip">JavaScript</span>
+        </div>
+        <div>
+            <img src=".//src/assets/img/skills/php.png"class="imgg"> <span class="tooltip">Php</span>
+        </div>
+        <div>
+            <img src=".//src/assets/img/skills/sql.png"class="imgg"> <span class="tooltip">SQL Server</span>
+        </div>
+        <div>
+            <img src=".//src/assets/img/skills/net.png"class="imgg"> <span class="tooltip">ASP .Net</span>
+        </div>
+        <div>
+            <img src=".//src/assets/img/skills/node.svg"class="imgg"> <span class="tooltip">Node.js</span>
+        </div>
+        <div>
+            <img src=".//src/assets/img/skills/angular.svg"class="imgg"> <span class="tooltip">Angular</span>
+        </div>
+        <div>
+            <img src=".//src/assets/img/skills/piton.png"class="imgg"> <span class="tooltip">Python</span>
+        </div>
+        <div>
+            <img src=".//src/assets/img/skills/csharp.svg"class="imgg"> <span class="tooltip">C#</span>
+        </div>
+        <div>
+            <img src=".//src/assets/img/skills/mysql.png"class="imgg"> <span class="tooltip">MySQL</span>
+        </div>
+        <div>
+            <img src=".//src/assets/img/skills/bootstrap.svg"class="imgg"> <span class="tooltip">Bootstrap</span>
+        </div>
+    </div>
+</section>
+<!-- Proyectos -->
+<section id="portfolio" id=" proyectos">
+    <h3>Proyectos</h3>
+    <hr/>
+    <div>
+        <a href="">
+            <button>
+                <img src=".//src/assets/img/experience/licoreria.png"/>
+                <h4>Licoreria Fake Gods</h4>
+            </button>
+        </a>
+        <a href="https://github.com/San-Cejota/Alforgaa" target="_blank">
+            <button>
+                <img src=".//src/assets/img/experience/Alforga.png"/>
+                <h4>Alforga</h4>
+            </button>
+        </a>
+        <a href="https://climax-coderx.netlify.app/" target="_blank">
+            <button>
+                <img src=".//src/assets/img/experience/climax.png"/>
+                <h4>Climax</h4>
+            </button>
+        </a>
+    </div>
+</section>
+<!-- Contact -->
+<section id="contact" class="even">
+    <h3>Contacto</h3>
+    <hr/>
+    <div id="login">
+        <form action="mailto:delgadokarlos09@gmail.com" method="post" name="form-login">
+            <input type="mail" class="input inputt" id="user" placeholder="Username" />
+            <textarea name="" class="input inputt" placeholder="Mensaje" cols="30" rows="10"></textarea>
+            <button type="submit" class="submitbtn">Enviar</button> 
+        </form>
+    </div>
+    <nav id="social-media">
+        <a href="https://www.instagram.com/whos.carloss/">
+            <img width="40px" height="40px" id="linkedin" src=".//src/assets/img/social/instagram.png">
+        </a>
+        <a href="https://github.com/San-Cejota">
+            <img id="github" src=".//src/assets/img/social/github.png">
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=573005758109">
+            <img width="40px" height="40px" id="youtube" src=".//src/assets/img/social/whatsapp.png">
+        </a>
+    </nav>
+</section>
+</main>
+<!-- Footer -->
+<footer id="footer">
+    <img ng-src="{{icon}}" ng-repeat="icon in icons">
+        <small><span>Programador Junior by&nbsp;</span><a href='mailto:delgadokarlos09@gmailcom'>Carlos Dev</a>. &copy; <script type="text/javascript">
+            var d = new Date()
+            document.write(d.getFullYear())
+            </script><span class="min-footer">. All rights reserved.</span></small>
+</footer>
+<!-- scripts -->
+<script src=".//src/assets/js/app.js"></script>
 </body>
 </html>
